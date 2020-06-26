@@ -13,7 +13,7 @@ const startServer = async function startServer() {
 
 startServer()
 .then(() => {
-	console.log(`Test done Test`);
+	console.log(`Test done`);
 })
 .catch((err) => {
 	console.error(err.toString());
